@@ -3,20 +3,25 @@ Project Title:  PriorQ —Queue-Based Smart Task Scheduling and Deadline Priorit
 Project Description 
  
 PriorQ is a queue-based academic task scheduling and deadline prioritization system designed to help students organize and manage their academic responsibilities more efficiently. The system aims to provide students with a structured way of keeping track of their assignments, quizzes, projects, examinations, and other school-related activities. It organizes tasks based on their deadlines and priority levels, allowing students to identify which academic responsibilities need attention first.
+
 Through the implementation of queue-based data structures, PriorQ will arrange and manage academic tasks according to their urgency and scheduled order. The system will help students monitor upcoming deadlines, keep track of task progress, and manage their study schedules in a more organized manner. By providing a centralized platform for academic task management, PriorQ aims to reduce the difficulty of handling multiple school requirements and encourage better time management, planning, and study habits.
 
 
 Background of the Project
 
 Students are often required to manage multiple academic responsibilities, including assignments, quizzes, projects, examinations, and other school-related activities. Handling these requirements simultaneously can become challenging, especially when they have different deadlines and levels of importance. Without proper planning and organization, students may struggle to determine which tasks should be prioritized, forget upcoming deadlines, or have difficulty allocating enough time for their studies. These challenges highlight the importance of having an organized approach to managing academic responsibilities.
+
 The importance of effective time management is supported by Trentepohl et al. (2022), whose study highlighted how developing practical time management skills can help university students organize their academic activities and improve their time management abilities. Similarly, Liu et al. (2026) found a positive relationship between time management and college students' learning outcomes, suggesting that students who manage their time effectively tend to achieve better learning outcomes. These findings emphasize the value of having a structured way to plan and monitor academic responsibilities.
+
 Furthermore, Kooren et al. (2024) discussed the relationship between procrastination and academic performance, highlighting how delays in completing academic requirements may affect students' performance. Patzak et al. (2025) also emphasized the importance of planning, goal-setting, and task prioritization as strategies that support productivity and well-being. These studies suggest that students can benefit from having a system that helps them organize their responsibilities, recognize urgent tasks, and manage their available study time.
+
 In response to these concerns, PriorQ — Queue-Based Smart Task Scheduling and Deadline Prioritization System) is proposed as a tool specifically designed to help students manage their academic tasks more efficiently. Through the application of queue-based data structures and task prioritization techniques, the system will allow students to organize their assignments, quizzes, projects, and examinations according to their deadlines and priority levels. By providing a centralized and organized way to monitor academic responsibilities, PriorQ aims to help students identify which tasks need attention first, manage their workloads, and develop better study routines.
 
 
 Problem Statement 
 
 Students often encounter difficulties in managing their academic responsibilities due to multiple assignments, quizzes, projects, and examinations with different deadlines. Without an organized scheduling system, they may have difficulty identifying urgent tasks, deciding which academic requirements should be prioritized, and allocating sufficient time to complete each responsibility.
+ 
 These challenges can lead to missed deadlines, disorganized study routines, and ineffective time management.
 
 To address these concerns, PriorQ aims to answer the following questions:
