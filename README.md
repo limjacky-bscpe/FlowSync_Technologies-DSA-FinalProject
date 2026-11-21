@@ -166,6 +166,32 @@ A task monitoring feature can make this process easier by allowing students to c
 
 The findings of this study support the importance of having practical tools for managing academic responsibilities. By combining task scheduling, priority levels, deadlines, and progress monitoring, students can have a more organized way of handling their schoolwork. These features can encourage them to apply time management practices in their daily academic routines instead of simply knowing about them.
 
+References
+
+Kooren, N. S., Van Nooijen, C., & Paas, F. (2024). The influence of active and passive procrastination on academic performance: A meta-analysis. Education Sciences, 14(3), 323. https://doi.org/10.3390/educsci14030323⁠
+
+Liu, B., Ma, P., & Jia, F. (2026). Systematic review and meta-analysis of the impact of time management on college students' learning outcomes. Frontiers in Psychology, 17, 1700298. https://doi.org/10.3389/fpsyg.2026.1700298⁠
+
+Macan, T. H., Shahani, C., Dipboye, R. L., & Phillips, A. P. (1990). College students' time management: Correlations with academic performance and stress. Journal of Educational Psychology, 82(4), 760–768. https://doi.org/10.1037/0022-0663.82.4.760⁠
+
+Oracle. (2025). PriorityQueue (Java SE 25 & JDK 25). https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/PriorityQueue.html
+⁠
+Pai, G. A. V. (2023). Queues. In A textbook of data structures and algorithms 1. https://doi.org/10.1002/9781394192076.ch5⁠
+
+ Patzak, A., Zhang, X., & Vytasek, J. (2025). Boosting productivity and wellbeing through time management: Evidence-based strategies for higher education and workforce development. Frontiers in Education, 10, 1623228. https://doi.org/10.3389/feduc.2025.1623228⁠
+
+Trentepohl, S., Waldeyer, J., Fleischer, J., Roelle, J., Leutner, D., & Wirth, J. (2022). How did it get so late so soon? The effects of time management knowledge and practice on students' time management skills and academic performance. Sustainability, 14(9), 5097. https://doi.org/10.3390/su14095097⁠
+
+Zimmerman, B. J. (2002). Becoming a self-regulated learner: An overview. Theory Into Practice, 41(2), 64–70. https://doi.org/10.1207/S15430421TIP4102_2⁠
+
+
+
+
+
+
+
+
+
 
 
 
