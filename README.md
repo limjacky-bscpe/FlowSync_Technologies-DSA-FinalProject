@@ -47,6 +47,19 @@ Specifically, the project aims to:
 4.	Enable students to monitor the progress and completion status of their academic responsibilities.
 5.	Provide an organized scheduling system that helps students plan their study activities and manage their academic workload more effectively.
 
+Scope of the Project
+
+The project focuses on developing a queue-based task scheduling and deadline prioritization system that will help students organize their academic responsibilities. It will provide a platform where students can list and manage their assignments, quizzes, projects, examinations, and other school-related activities.
+
+The application will allow users to add tasks by entering the task title, description, deadline, and priority level. Users can also view their existing tasks, update task information, and remove tasks that are already completed or no longer needed.
+
+The system will use Java's PriorityQueue data structure to organize tasks based on their priority levels and deadlines. This will help students identify which tasks need to be completed first. If two or more tasks have the same priority level, their deadlines will be considered, displaying the task with the nearest deadline first.
+
+Aside from organizing tasks, the application will allow users to monitor the status of their academic responsibilities, such as pending and completed tasks. It will also use CSV file storage to save task information so users can still access their records when they open the application again.
+
+The system will be developed using the Java programming language and Eclipse IDE. It will also apply object-oriented programming concepts and queue-based operations. The group will test its features using sample academic tasks to check whether adding, organizing, updating, and saving tasks work properly.
+
+Overall, the project aims to provide students with a simple way to keep their academic requirements organized, become more aware of upcoming deadlines, and manage their schoolwork more effectively.
 
 References:
 
