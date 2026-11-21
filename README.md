@@ -61,6 +61,35 @@ The system will be developed using the Java programming language and Eclipse IDE
 
 Overall, the project aims to provide students with a simple way to keep their academic requirements organized, become more aware of upcoming deadlines, and manage their schoolwork more effectively.
 
+Limitations of the Project
+
+Although the system is designed to help students manage their academic tasks, it will have some limitations.
+
+1. The system will only focus on academic responsibilities, such as assignments, quizzes, projects, examinations, and other school-related activities. It will not include personal activities, household responsibilities, or tasks unrelated to school.
+
+2. The system will be a standalone application that uses CSV files to store task information. Users will not be able to access or update their records across different devices because the system will not have online or cloud storage.
+
+3. The system will not provide automatic reminders through email, text messages, or mobile notifications. Students will need to open the application themselves to check their tasks and upcoming deadlines.
+
+4. The system will depend on the information entered by the users. They must provide accurate task details, deadlines, and priority levels. The application will organize tasks based on the information provided but will not automatically determine task difficulty or estimated completion time.
+
+5. The system will not include advanced features such as artificial intelligence, online calendar integration, or automatic study schedule recommendations. Its main functions will be limited to organizing tasks, setting priorities, and monitoring task completion status.
+
+Target Users
+
+The main target users are college students, particularly the Computer Engineering students of Marinduque State University (MarSU). These students often handle different academic responsibilities, such as programming activities, laboratory exercises, assignments, quizzes, projects, and examinations. Managing these requirements can sometimes be difficult, especially when several deadlines are scheduled close to each other.
+
+The application is intended to help students who have difficulty keeping track of their school requirements. They can use it to list their tasks, set priority levels, check upcoming deadlines, and monitor which activities have already been completed.
+
+The system is intended for the following users:
+College Students – Students who want to organize their academic requirements and keep track of their assignments, quizzes, projects, and examinations.
+Computer Engineering Students of MarSU – These are the primary target users. They can use the application to manage their programming activities, laboratory exercises, projects, and other course requirements.
+Students with Multiple Academic Tasks – Students who handle several school requirements at the same time and need help deciding which tasks should be completed first.
+
+Although the project is mainly intended for Computer Engineering students of Marinduque State University, it can also be used by students from other courses who want a more organized way of managing their academic responsibilities.
+
+
+
 References:
 
 Kooren, N. S., Van Nooijen, C., & Paas, F. (2024). The influence of active and passive procrastination on academic performance: A meta-analysis. Education Sciences, 14(3), 323. https://doi.org/10.3390/educsci14030323
