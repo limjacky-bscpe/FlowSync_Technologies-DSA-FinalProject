@@ -88,6 +88,89 @@ Students with Multiple Academic Tasks – Students who handle several school req
 
 Although the project is mainly intended for Computer Engineering students of Marinduque State University, it can also be used by students from other courses who want a more organized way of managing their academic responsibilities.
 
+Supporting Theories 
+
+The development of this project is based on different studies and concepts related to time management, self-regulated learning, procrastination, task prioritization, and queue-based data structures. These studies explain the importance of organizing academic responsibilities and how proper planning can help students manage their schoolwork. They also provide ideas that can be applied to the development of a system that organizes tasks, monitors deadlines, and helps students keep track of their academic progress.
+
+1. Time Management Theory
+
+Macan et al. (1990) studied the time management habits of college students and their relationship with academic performance and stress. Their study showed that students who have better control over their time tend to feel more organized and experience less stress. It also explained that time management is not only about making schedules but also about knowing how to use available time properly.
+
+For college students, managing time can be difficult because they usually have several academic responsibilities at once. They need to attend classes, complete assignments, prepare for quizzes and examinations, and work on different projects. Sometimes, these activities have deadlines that are close to each other, making it difficult to decide which one should be completed first. Without proper planning, students may spend too much time on less urgent activities while forgetting other important requirements.
+
+Having a proper way to organize these responsibilities can help students become more aware of their workload. Keeping a list of tasks with their corresponding deadlines and priority levels can make it easier to identify which activities need immediate attention. This is why time management is an important concept in the development of an academic task scheduling system. It provides the idea that students should not only keep track of their requirements but also learn how to manage them based on their importance and deadlines.
+
+
+
+
+
+2. Self-Regulated Learning Theory
+
+Zimmerman (2002) explained that self-regulated learning is about students taking responsibility for their own learning. It involves setting goals, planning activities, monitoring progress, and checking whether their actions are helping them achieve their goals. Students who practice self-regulated learning take an active role in their studies instead of depending only on reminders or instructions from their teachers.
+
+This concept is important for college students because they are expected to manage many of their academic responsibilities on their own. They need to know when to start an assignment, how to prepare for an examination, and how to finish their projects within the given deadlines. However, handling these activities can become challenging when students do not have a clear plan or a way to monitor their progress.
+
+One way to practice self-regulated learning is by keeping track of academic tasks and checking their completion status. For example, a student can list all their assignments for the week, set a deadline for each one, and monitor which requirements are already finished. This makes it easier to recognize unfinished activities and decide what needs to be done next.
+
+The same idea is applied in the proposed system through its task management and progress monitoring features. Students will be able to record their academic requirements, assign priority levels, and update their tasks once completed. These features can help them become more responsible for their schoolwork and develop better study habits. Although the system cannot guarantee better academic performance, it can provide a useful way for students to plan and monitor their own activities.
+
+
+
+3. Queue-Based Data Structure and Priority Queue Concept
+
+A queue is a type of data structure used to organize and manage elements. A regular queue follows the First In, First Out (FIFO) principle, which means that the first element added will also be the first one removed. However, a Priority Queue works differently because it arranges elements based on their assigned priorities. This allows elements with higher priority to be processed before those with lower priority, even if they were added later.
+
+According to Oracle's Java documentation, the PriorityQueue class is used to store elements based on their natural ordering or a specified comparator. It is commonly used in situations where certain elements need to be processed before others. This makes it useful for applications involving scheduling and task management.
+
+This concept is the main technical foundation of the proposed system. Instead of simply displaying academic tasks based on the order in which they were added, the program will use their priority levels and deadlines to determine their order. For example, if a student has three pending tasks with different priority levels, the system will arrange them so that the task with the highest priority comes first. If two tasks have the same priority, the one with the nearest deadline will be placed ahead of the other.
+
+The PriorityQueue data structure will also be used in managing the different task operations. When a student adds a new requirement, the task will be inserted into the queue. When the student wants to know which task needs attention first, the system can retrieve the task at the front of the priority queue. Completed tasks can also be removed from the queue.
+
+Using this data structure allows the program to manage tasks based on their importance instead of following only the order in which they were entered. It also demonstrates how the concepts learned in Data Structures and Algorithms can be applied to an actual problem that college students experience.
+
+4. Procrastination and Task Prioritization
+
+Kooren et al. (2024) conducted a study about the relationship between procrastination and academic performance. Their research discussed how delaying tasks can affect students' academic activities. It also explained the differences between active and passive procrastination and how these may have different effects on academic performance.
+
+Procrastination is a common problem among students, especially when they have several requirements to complete. Some students tend to delay their assignments because they still have other activities to do or because they are unsure which task should come first. Others wait until the deadline is near before starting their work. This can result in rushed outputs, incomplete requirements, and difficulty managing their remaining time.
+
+Patzak et al. (2025) also discussed different ways to improve time management, including planning, setting goals, and prioritizing tasks. These practices can help students become more organized and make better use of their available time. Knowing which activities are more important or urgent can help students avoid spending too much time on tasks that can still be completed later.
+
+These ideas show why task prioritization is important in managing academic responsibilities. Students need to consider not only the number of tasks they have but also their deadlines and importance. For example, an assignment that is due tomorrow may need more attention than a project that is due next week. Having a system that displays these tasks according to their priority levels and deadlines can make it easier to decide what to work on first.
+
+Through the use of task prioritization, students can have a clearer view of their pending requirements and avoid forgetting important deadlines. While organizing tasks does not completely prevent procrastination, it can help students become more aware of their responsibilities and encourage them to follow a more organized study routine.
+
+
+5. Time Management and Academic Learning Outcomes
+
+Liu et al. (2026) conducted a systematic review and meta-analysis about the relationship between time management and the learning outcomes of college students. Their research included 31 studies with a total of 13,506 participants. The findings showed a positive relationship between time management and students' learning outcomes. This suggests that students who manage their time properly may have better results in their academic activities.
+
+College students need to divide their time between different responsibilities, such as attending classes, studying lessons, completing assignments, and preparing for examinations. When several requirements are given at the same time, it can be difficult to manage everything without proper planning. Students may forget deadlines or spend too much time on one activity, leaving less time for other requirements.
+
+Proper task organization can help students become more aware of how many responsibilities they have and when each one needs to be completed. For example, listing assignments, quizzes, and projects together with their deadlines allows students to see which days will be more demanding. It can also help them plan their study time instead of waiting until the deadline is near.
+
+This is one of the main ideas behind the development of an academic task scheduling system. By providing a list of recorded tasks, their deadlines, and their priority levels, students can have an easier way of checking their academic workload. They can also monitor which requirements are completed and which ones still need attention.
+
+Overall, the study emphasizes that time management is an important part of students' academic lives. Having an organized way to schedule and monitor academic responsibilities may help them develop better study routines and become more consistent in completing their school requirements.
+
+
+6. Time Management Knowledge and Practice
+
+Trentepohl et al. (2022) conducted a study about the effects of time management knowledge and practice on students' time management skills and academic performance. Their research examined how learning and applying time management strategies can help university students improve the way they handle their academic responsibilities. The study showed that practicing time management strategies can help students improve their time management skills.
+
+This study explains that knowing how to manage time is not always enough. Students also need to apply what they know when completing their daily activities. For example, making a list of assignments is a good start, but students also need to follow their plans, check their deadlines, and make sure that their requirements are completed on time.
+
+In college, students often create schedules or lists of things they need to accomplish. However, keeping track of these activities can become difficult when new assignments, quizzes, and projects are added. Without regularly checking their progress, some requirements may be forgotten or left unfinished.
+
+A task monitoring feature can make this process easier by allowing students to check their pending and completed activities in one place. They can update the status of each task after finishing it and review the remaining requirements whenever needed. This gives them a simple way to follow their plans and keep track of their progress.
+
+The findings of this study support the importance of having practical tools for managing academic responsibilities. By combining task scheduling, priority levels, deadlines, and progress monitoring, students can have a more organized way of handling their schoolwork. These features can encourage them to apply time management practices in their daily academic routines instead of simply knowing about them.
+
+
+
+
+
+
 
 
 References:
