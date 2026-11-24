@@ -1434,7 +1434,6 @@ final class Planner extends JFrame {
             String compact = b.due() ? "" : compactTime(t.study().toLocalTime()) + " – "
                     + compactTime(t.study().plusMinutes(t.minutes()).toLocalTime());
             boolean tall = !b.due() && b.end() - b.start() >= 75;
-            // short blocks use one plain line (it ends with "..." instead of being cut off)
             String words = tall ? "<html><b>" + safe + "</b><br>" + compact + "</html>"
                     : b.due() ? "Due: " + t.title() : t.title();
             JButton button = new JButton(words) {
