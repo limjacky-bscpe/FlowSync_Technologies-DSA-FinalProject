@@ -415,7 +415,6 @@ final class Planner extends JFrame {
         };
     }
 
-    // green box with a white check (used for finished tasks)
     private Icon filledCheck(int size) {
         Color fill = tone(0x1F9A52, 0x3DB46D);
         return new Icon() {
@@ -474,7 +473,6 @@ final class Planner extends JFrame {
         return button;
     }
 
-    // sliding light / dark switch for the top bar
     private JButton themeToggle() {
         JButton toggle = new JButton() {
             @Override
@@ -826,7 +824,6 @@ final class Planner extends JFrame {
         return wrap;
     }
 
-    // subject chip: same color as that subject's blocks in the schedule
     private JPanel subjectChip(String name) {
         int[][] colors = {
                 {0xD7EFDD, 0x24543A, 0x186339, 0xB6ECC1},
@@ -863,7 +860,6 @@ final class Planner extends JFrame {
         return result;
     }
 
-    // one task box on the dashboard: number, color bar, title, chips, checkbox
     private JPanel queueRow(int rank, Task t) {
         Color barColor = switch (t.priority()) {
             case High -> tone(0xEF4444, 0xFF6B6B);
@@ -926,7 +922,6 @@ final class Planner extends JFrame {
         return row;
     }
 
-    // one study session in "Today's Schedule"
     private JPanel sessionRow(Task t) {
         JPanel row = clear(new BorderLayout(10, 0));
         JPanel time = pill(tone(0xE9E8F8, 0x343F64), 12);
@@ -1015,7 +1010,6 @@ final class Planner extends JFrame {
         return field;
     }
 
-    // text field that shows grey hint text while it is empty
     private JTextField hintField(String text, String hint) {
         JTextField field = new JTextField(text, 12) {
             @Override
@@ -1037,7 +1031,6 @@ final class Planner extends JFrame {
         return input(field);
     }
 
-    // text field inside a rounded box with an icon on the left or right
     private JPanel iconField(JTextField field, Icon icon, boolean left) {
         Color fill = account.dark() ? surface : Color.WHITE;
         JPanel box = new JPanel(new BorderLayout()) {
@@ -1066,7 +1059,6 @@ final class Planner extends JFrame {
         return box;
     }
 
-    // any component inside a rounded box (same look as the search box)
     private JPanel roundBox(JComponent inner) {
         Color fill = account.dark() ? surface : Color.WHITE;
         JPanel box = new JPanel(new BorderLayout()) {
@@ -1087,7 +1079,6 @@ final class Planner extends JFrame {
         return box;
     }
 
-    // caption text; a trailing " *" turns into a red star
     private JComponent caption(String text) {
         if (!text.endsWith(" *")) return label(text, 15, true);
         JPanel row = clear(new FlowLayout(FlowLayout.LEFT, 3, 0));
@@ -1315,7 +1306,6 @@ final class Planner extends JFrame {
 
     private record Block(Task task, int day, int start, int end, int lane, int lanes, boolean due) {}
 
-    // something drawn on the calendar: a study session or a deadline marker
     private record Item(Task task, LocalDateTime start, int minutes, boolean due) {}
 
     private List<Block> blocks() {
@@ -1357,7 +1347,6 @@ final class Planner extends JFrame {
             result.add(new Block(b.task(), b.day(), b.start(), b.end(), b.lane(), count, b.due()));
     }
 
-    // "9 AM" or "9:30 AM" (short, so it fits inside a schedule block)
     private String compactTime(LocalTime time) {
         return time.format(DateTimeFormatter.ofPattern(
                 time.getMinute() == 0 ? "h a" : "h:mm a", Locale.ENGLISH));
