@@ -1421,6 +1421,7 @@ final class Planner extends JFrame {
                 }
             }
         };
+        
         grid.setOpaque(false);
         grid.setPreferredSize(new Dimension(495, head + (end - first) * row + 10));
 
