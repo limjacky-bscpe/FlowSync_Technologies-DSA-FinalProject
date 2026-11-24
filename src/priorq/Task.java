@@ -43,6 +43,7 @@ record Task(long id, String title, String subject, Kind kind, LocalDate due,
                 "", LocalTime.of(23, 59), 60, null);
     }
 
+    
     Task withStatus(Status next) {
         LocalDate finished = next == Status.DONE
                 ? (status == Status.DONE ? completedOn : LocalDate.now()) : null;

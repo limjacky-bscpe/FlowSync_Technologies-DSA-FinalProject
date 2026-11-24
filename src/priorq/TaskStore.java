@@ -41,6 +41,7 @@ final class TaskStore {
         }
     }
 
+    
     long nextId() { return tasks.keySet().stream().mapToLong(Long::longValue).max().orElse(0) + 1; }
     Task next() { return queue.peek(); }
 
